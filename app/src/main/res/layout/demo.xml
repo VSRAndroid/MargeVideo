@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:layout_margin="25dp"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/panTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:layout_marginStart="25dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/panNumberEdiText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/panTextView"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+
+        android:autofillHints="" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:layout_below="@+id/panNumberEdiText"
+        android:layout_marginStart="25dp"
+        android:textSize="16sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/dateEdiText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:inputType="number"
+            android:autofillHints=""
+
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/monthEdiText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:inputType="number"
+            android:autofillHints=""
+
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/yearEdiText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:inputType="number"
+            android:autofillHints=""
+
+            tools:ignore="TextFields" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/infoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ic_launcher_background"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="@string/app_name"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:background="@color/ic_launcher_background"
+        android:layout_above="@+id/dontTextView"/>
+
+    <TextView
+        android:id="@+id/dontTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ic_launcher_background"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="@string/app_name"/>
+
+</RelativeLayout>

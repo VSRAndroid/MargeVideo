@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">VideoMergeApp</string>
+    <string name="video_title">Title: %s</string>
+    <string name="video_date">Date: %s</string>
+    <string name="video_duration">Duration: %ds</string>
+    <string name="created_video">Merged video: %s.</string>
+    <string name="scan_toast">Found %d videos.</string>
+    <string name="instruction"> 1.Single click For Play Video.
+        2. And Long press click you select and unselect the video for merge. 3.After merge refresh list</string>
+    <string name="marge_text">Merge Videos</string>
+    <string name="error_text">Only select Two videos.</string>
+    <string name="noti_title">Merge Videos</string>
+    <string name="noti_message">Merge Videos file here.</string>
+    <string name="noti_complete_text">Merge complete.</string>
+    <plurals name="select_videos">
+        <item quantity="one" formatted="true">Selected %d video.</item>
+        <item quantity="other" formatted="true">Selected %d videos.</item>
+    </plurals>
+</resources>
